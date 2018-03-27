@@ -7,21 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6D37722F6213780C6CDF498E /* Pods_CodaGram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D65643233181CC5C3969C038 /* Pods_CodaGram.framework */; };
 		C170C17420693A32008D6C97 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C170C17320693A32008D6C97 /* AppDelegate.swift */; };
 		C170C17620693A32008D6C97 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C170C17520693A32008D6C97 /* ViewController.swift */; };
-		C170C17920693A32008D6C97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C170C17720693A32008D6C97 /* Main.storyboard */; };
 		C170C17B20693A32008D6C97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C170C17A20693A32008D6C97 /* Assets.xcassets */; };
 		C170C17E20693A32008D6C97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C170C17C20693A32008D6C97 /* LaunchScreen.storyboard */; };
+		C170C18720697256008D6C97 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C170C18520693AD1008D6C97 /* GoogleService-Info.plist */; };
+		C17EF84A2069817F00C4428F /* ConnectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17EF8492069817F00C4428F /* ConnectionController.swift */; };
+		C17EF84D2069853C00C4428F /* LogoVue.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17EF84C2069853C00C4428F /* LogoVue.swift */; };
+		C17EF84F20698A4200C4428F /* ConnectionVue.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17EF84E20698A4200C4428F /* ConnectionVue.swift */; };
+		C17EF85120698A7C00C4428F /* ConnectionVue.xib in Resources */ = {isa = PBXBuildFile; fileRef = C17EF85020698A7C00C4428F /* ConnectionVue.xib */; };
+		C17EF85320698B6500C4428F /* UIExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17EF85220698B6500C4428F /* UIExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2B0F8C3B1BE1F1CC120D246A /* Pods-CodaGram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodaGram.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CodaGram/Pods-CodaGram.debug.xcconfig"; sourceTree = "<group>"; };
 		C170C17020693A32008D6C97 /* CodaGram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodaGram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C170C17320693A32008D6C97 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C170C17520693A32008D6C97 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C170C17820693A32008D6C97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C170C17A20693A32008D6C97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C170C17D20693A32008D6C97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C170C17F20693A32008D6C97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C170C18520693AD1008D6C97 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C17EF8492069817F00C4428F /* ConnectionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionController.swift; sourceTree = "<group>"; };
+		C17EF84C2069853C00C4428F /* LogoVue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoVue.swift; sourceTree = "<group>"; };
+		C17EF84E20698A4200C4428F /* ConnectionVue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionVue.swift; sourceTree = "<group>"; };
+		C17EF85020698A7C00C4428F /* ConnectionVue.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ConnectionVue.xib; sourceTree = "<group>"; };
+		C17EF85220698B6500C4428F /* UIExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIExtensions.swift; sourceTree = "<group>"; };
+		D65643233181CC5C3969C038 /* Pods_CodaGram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CodaGram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8D6B1F0E17D3BB72A200B08 /* Pods-CodaGram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodaGram.release.xcconfig"; path = "Pods/Target Support Files/Pods-CodaGram/Pods-CodaGram.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +43,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D37722F6213780C6CDF498E /* Pods_CodaGram.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		85A8A6F9A334D51C25EB3B0F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D65643233181CC5C3969C038 /* Pods_CodaGram.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C170C16720693A32008D6C97 = {
 			isa = PBXGroup;
 			children = (
 				C170C17220693A32008D6C97 /* CodaGram */,
 				C170C17120693A32008D6C97 /* Products */,
+				E9DB4EB6869944D2E4CAC2B4 /* Pods */,
+				85A8A6F9A334D51C25EB3B0F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +79,68 @@
 		C170C17220693A32008D6C97 /* CodaGram */ = {
 			isa = PBXGroup;
 			children = (
+				C17EF8482069811B00C4428F /* Model */,
+				C17EF8472069811200C4428F /* View */,
+				C17EF846206980F500C4428F /* Controller */,
 				C170C17320693A32008D6C97 /* AppDelegate.swift */,
 				C170C17520693A32008D6C97 /* ViewController.swift */,
-				C170C17720693A32008D6C97 /* Main.storyboard */,
 				C170C17A20693A32008D6C97 /* Assets.xcassets */,
 				C170C17C20693A32008D6C97 /* LaunchScreen.storyboard */,
-				C170C17F20693A32008D6C97 /* Info.plist */,
+				C170C18620693B0A008D6C97 /* Plists */,
 			);
 			path = CodaGram;
+			sourceTree = "<group>";
+		};
+		C170C18620693B0A008D6C97 /* Plists */ = {
+			isa = PBXGroup;
+			children = (
+				C170C18520693AD1008D6C97 /* GoogleService-Info.plist */,
+				C170C17F20693A32008D6C97 /* Info.plist */,
+			);
+			path = Plists;
+			sourceTree = "<group>";
+		};
+		C17EF846206980F500C4428F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C17EF8492069817F00C4428F /* ConnectionController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C17EF8472069811200C4428F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C17EF85220698B6500C4428F /* UIExtensions.swift */,
+				C17EF84B2069830400C4428F /* UIView */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C17EF8482069811B00C4428F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C17EF84B2069830400C4428F /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				C17EF84C2069853C00C4428F /* LogoVue.swift */,
+				C17EF84E20698A4200C4428F /* ConnectionVue.swift */,
+				C17EF85020698A7C00C4428F /* ConnectionVue.xib */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		E9DB4EB6869944D2E4CAC2B4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2B0F8C3B1BE1F1CC120D246A /* Pods-CodaGram.debug.xcconfig */,
+				E8D6B1F0E17D3BB72A200B08 /* Pods-CodaGram.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +150,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C170C18220693A32008D6C97 /* Build configuration list for PBXNativeTarget "CodaGram" */;
 			buildPhases = (
+				8CAC6890471F542953B1567D /* [CP] Check Pods Manifest.lock */,
 				C170C16C20693A32008D6C97 /* Sources */,
 				C170C16D20693A32008D6C97 /* Frameworks */,
 				C170C16E20693A32008D6C97 /* Resources */,
+				C449B597B840BF20AE45CFE2 /* [CP] Embed Pods Frameworks */,
+				B8395048160FD3F1A01DE8DF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -124,12 +206,61 @@
 			buildActionMask = 2147483647;
 			files = (
 				C170C17E20693A32008D6C97 /* LaunchScreen.storyboard in Resources */,
+				C170C18720697256008D6C97 /* GoogleService-Info.plist in Resources */,
+				C17EF85120698A7C00C4428F /* ConnectionVue.xib in Resources */,
 				C170C17B20693A32008D6C97 /* Assets.xcassets in Resources */,
-				C170C17920693A32008D6C97 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8CAC6890471F542953B1567D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B8395048160FD3F1A01DE8DF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CodaGram/Pods-CodaGram-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C449B597B840BF20AE45CFE2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CodaGram/Pods-CodaGram-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C170C16C20693A32008D6C97 /* Sources */ = {
@@ -137,6 +268,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C170C17620693A32008D6C97 /* ViewController.swift in Sources */,
+				C17EF84D2069853C00C4428F /* LogoVue.swift in Sources */,
+				C17EF84A2069817F00C4428F /* ConnectionController.swift in Sources */,
+				C17EF85320698B6500C4428F /* UIExtensions.swift in Sources */,
+				C17EF84F20698A4200C4428F /* ConnectionVue.swift in Sources */,
 				C170C17420693A32008D6C97 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -144,14 +279,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		C170C17720693A32008D6C97 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C170C17820693A32008D6C97 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		C170C17C20693A32008D6C97 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -272,31 +399,33 @@
 		};
 		C170C18320693A32008D6C97 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B0F8C3B1BE1F1CC120D246A /* Pods-CodaGram.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ENGLX8LG3W;
-				INFOPLIST_FILE = CodaGram/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/CodaGram/Plists/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.teki.CodaGram;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		C170C18420693A32008D6C97 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8D6B1F0E17D3BB72A200B08 /* Pods-CodaGram.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ENGLX8LG3W;
-				INFOPLIST_FILE = CodaGram/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/CodaGram/Plists/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.teki.CodaGram;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
