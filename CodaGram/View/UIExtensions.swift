@@ -8,12 +8,21 @@
 
 import UIKit
 
+extension UIViewController {
+    func keyboard() {
+        self.view.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(hideKeyboard)))
+    }
+    
+    @objc func hideKeyboard() {
+        self.view.endEditing(true)
+    }
+}
+
 extension UIView {
     func chargerXib() -> UIView {
         let bundle = Bundle(for: type(of: self))
         let nomXib = type(of: self).description().components(separatedBy: ".").last!
         let nib = UINib(nibName: nomXib, bundle: bundle)
-        print(nomXib)
         let vue = nib.instantiate(withOwner: self, options: nil).first as! UIView
         vue.frame = bounds
         addSubview(vue)

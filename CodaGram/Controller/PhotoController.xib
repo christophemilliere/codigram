@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PhotoController" customModule="CodaGram" customModuleProvider="target">
+            <connections>
+                <outlet property="collectionView" destination="pd7-rp-zfb" id="Nfd-Ke-6GH"/>
+                <outlet property="segment" destination="MRH-7z-vjX" id="P0v-w3-0jY"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="pd7-rp-zfb">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="600"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="hw6-VW-drd">
+                        <size key="itemSize" width="50" height="50"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    </collectionViewFlowLayout>
+                </collectionView>
+                <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="MRH-7z-vjX">
+                    <rect key="frame" x="20" y="620" width="335" height="28"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="27" id="j3P-p8-9ec"/>
+                    </constraints>
+                    <segments>
+                        <segment title="Librairie"/>
+                        <segment title="Second"/>
+                    </segments>
+                    <color key="tintColor" red="0.33063715700000001" green="0.4063152075" blue="0.49782294030000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <connections>
+                        <action selector="segmentChoice:" destination="-1" eventType="valueChanged" id="zpb-zc-XhD"/>
+                    </connections>
+                </segmentedControl>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="pd7-rp-zfb" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="0Hr-Hm-E7X"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="MRH-7z-vjX" secondAttribute="trailing" constant="20" id="1RZ-Be-kT5"/>
+                <constraint firstItem="MRH-7z-vjX" firstAttribute="top" secondItem="pd7-rp-zfb" secondAttribute="bottom" constant="20" id="3n6-g5-6cl"/>
+                <constraint firstItem="pd7-rp-zfb" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="WpH-th-7if"/>
+                <constraint firstItem="MRH-7z-vjX" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="ZuY-4p-BcE"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="MRH-7z-vjX" secondAttribute="bottom" constant="20" id="fiL-pX-9s1"/>
+                <constraint firstItem="pd7-rp-zfb" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="w0k-eJ-Axk"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="34.5" y="54.5"/>
+        </view>
+    </objects>
+</document>

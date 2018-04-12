@@ -9,7 +9,15 @@
 import UIKit
 
 class ConnectionVue: UIView {
+    
+    
+    @IBOutlet weak var mailTextField: UITextField!
+    @IBOutlet weak var passwordTextfield: UITextField!
+    @IBOutlet weak var validButton: CodaGrammButton!
+    
+    
     var vue: UIView!
+    var connectionController : ConnectionController!
     
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -20,4 +28,14 @@ class ConnectionVue: UIView {
         super.init(coder: aDecoder)
         vue = chargerXib()
     }
+    
+    func addController(controller: ConnectionController){
+        self.connectionController = controller
+    }
+    
+    @IBAction func validButtonAction(_ sender: Any) {
+        connectionController?.validConnection(email: mailTextField.text, password: passwordTextfield.text)
+    }
+    
+    
 }
